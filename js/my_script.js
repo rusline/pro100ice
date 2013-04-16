@@ -16,13 +16,14 @@
     });
 
 	
-		
+		// Tabs
 		$('ul.tabs').delegate('li:not(.current)', 'click', function() {
 		$(this).addClass('current').siblings().removeClass('current')
-			.parents('div.section').find('div.box').hide().eq($(this).index()).fadeIn(150);
+			.parents('div.tab-box').find('div.tbox').hide().eq($(this).index()).fadeIn(150);
 			return false;
 		});
-
+		
+		// Check
 		$(".checkboxclass").click(function(){
         if($(this).is(":checked")){
             $(this).next("label").addClass("labelselected");
@@ -30,7 +31,8 @@
             $(this).next("label").removeClass("labelselected");
         }
     });
-
+		
+		// Radio
 		$(".radioclass").click(function(){
 			 if($(this).is(":checked")){
             $(".radioselected:not(:checked)").removeClass("radioselected");
@@ -38,7 +40,8 @@
 			  }
 
     });
-
+	
+		
 	$(".accordion1 .ac01-title").click(function(){
 		$(this).next("div.ac01-drop").slideToggle("slow")
 		.siblings("div.ac01-drop:visible").slideUp("slow");
@@ -47,6 +50,7 @@
 		return false;
 	});
 
+	// Select
 	var params = {
     changedEl: ".lineForm select"
     }

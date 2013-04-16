@@ -16,8 +16,8 @@ a{color:#39a0d2}
 
 .top-menu{height:40px;background:url(../images/tmenu.png) repeat-x}
 .top-menu ul{margin:0;padding:0;list-style-type:none}
-.top-menu ul li{float:left;margin:0 13px;}
-.top-menu ul li a{font-family: 'Open Sans Condensed', sans-serif;color:#354d60;font-size:21px;text-decoration:none;float:left;height:40px;line-height:40px;padding:0 10px}
+.top-menu ul li{float:left;margin:0 3px;}
+.top-menu ul li a{font-family: 'Open Sans Condensed', sans-serif;color:#354d60;font-size:21px;text-decoration:none;float:left;height:40px;line-height:40px;padding:0 20px}
 .top-menu ul li.act a{background:url(../images/tmenu_act.png) repeat-x}
 
 .header{height:107px;position:relative;padding-right:250px;}
@@ -192,6 +192,12 @@ a{color:#39a0d2}
 .txt-box{}
 .txt-box h3{font-size:18px;color:#0d52a5;font-family: 'Open Sans Condensed', sans-serif;padding-bottom:10px;font-weight:300}
 .txt-box p{font-size:15px;line-height:20px;padding-bottom:20px}
+
+.contacts-box{}
+.contacts-box table{border-collapse:collapse;width:100%}
+.contacts-box table td{width:50%;vertical-align:top;padding-bottom:15px}
+.contacts-box table p{color:#565656;font-size:15px;line-height:20px;padding-bottom:15px}
+.contacts-box table p span{color:#0d52a5;}
 
 
 .brd{-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;-moz-box-shadow: 10px 10px 20px 0 #000; -webkit-box-shadow: 10px 10px 20px 0 #000; box-shadow: 10px 10px 20px 0 #000;width:200px;padding:20px;border:1px solid red;behavior: url(js/PIE.htc)}

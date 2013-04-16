@@ -378,6 +378,33 @@ a{color:#39a0d2}
 .tab-box .order-b input{height:33px;text-align:center;color:#fff;color:#fff;font-family: 'Open Sans Condensed', sans-serif;border:0;background:#2ab5e8;width:240px;font-size:20px;line-height:28px}
 .tab-box .order-b input[type='submit']::-moz-focus-inner{padding:0;border:0}
 
+.my-purchases{padding-bottom:30px}
+.my-purchases h2{font-size:18px;color:#0d52a5;font-family: 'Open Sans Condensed', sans-serif;padding-bottom:5px;font-weight:300}
+.my-purchases div{background:url(../images/ico05.png) 0 0 no-repeat;padding:0 0 0 40px}
+.my-purchases div p{color:#565656;font-size:15px}
+
+.my-info{padding-bottom:30px}
+.my-info h2{font-size:18px;color:#0d52a5;font-family: 'Open Sans Condensed', sans-serif;padding-bottom:5px;font-weight:300}
+
+.info{float:left;width:300px;}
+.info img{float:left;margin:0 15px 10px 0}
+.info p {padding-bottom:2px;font-size:14px;line-height:20px}
+
+.delivery{background:url(../images/ico06.png) 0 7px no-repeat;padding:0 0 0 50px;float:left;width:260px}
+.delivery p {padding-bottom:2px;line-height:20px;padding-right:50px;font-size:14px}
+
+.pass{background:url(../images/ico09.png) 0 7px no-repeat;padding:0 0 0 35px;float:left;width:150px}
+.pass p {padding-bottom:2px;font-size:14px;line-height:20px;}
+
+.my-message{clear:both;padding:20px 0 0 0}
+.my-message h2{font-size:18px;color:#0d52a5;font-family: 'Open Sans Condensed', sans-serif;padding-bottom:5px;font-weight:300}
+
+.write{background:url(../images/ico08.png) 0 7px no-repeat;padding:0 0 0 35px;float:left;width:265px}
+.write p {padding-bottom:2px;line-height:20px;padding-right:50px;font-size:14px}
+
+.feedback{background:url(../images/ico07.png) 0 7px no-repeat;padding:0 0 0 35px;float:left;width:325px}
+.feedback p {padding-bottom:2px;line-height:20px;padding-right:50px;font-size:14px}
+
 /* Content */
 
 /* Footer */

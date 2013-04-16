@@ -40,15 +40,19 @@
 			  }
 
     });
-	
 		
-	$(".accordion1 .ac01-title").click(function(){
-		$(this).next("div.ac01-drop").slideToggle("slow")
-		.siblings("div.ac01-drop:visible").slideUp("slow");
-		$(this).toggleClass("active");
-		$(this).siblings(".ac01-title").removeClass("active");
-		return false;
+		
+	// basket drop
+	$(".bas a").click(function(){
+		$(".bas-drop").show('fast');
 	});
+	
+	$(".close").click(function(){
+		$(this).parents(".bas-drop").hide('fast');
+		$(this).parents(".add-drop").hide('fast');
+		$('.overlay').fadeOut('fast');
+	});
+	
 
 	// Select
 	var params = {

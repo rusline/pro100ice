@@ -38,9 +38,23 @@ a{color:#39a0d2}
 .basket-top p span{position:absolute;width:120px;overflow:hidden;left:17px;height:14px;text-align:left}
 .basket-top p span span{position:absolute;white-space:nowrap;left:0;}
 .basket-top p a{color:#0d52a5}
-.basket-top div{background:url(../images/basket_bg.png) no-repeat;padding:1px 0 0 33px;color:#fff;font-size:16px}
-.basket-top div a{color:#fff;font-size:16px}
-.basket-top div span{color:#0d52a5;font-size:12px;display:block;padding-top:5px}
+.basket-top div.bas{background:url(../images/basket_bg.png) no-repeat;padding:1px 0 0 33px;color:#fff;font-size:16px}
+.basket-top div.bas a{color:#fff;font-size:16px}
+.basket-top div.bas span{color:#0d52a5;font-size:12px;display:block;padding-top:5px}
+
+.basket-top div.bas-drop{position:absolute;top:45px;right:0px;width:360px;border:1px solid #41acdf;padding:20px;background:#fff !important;display:none}
+.basket-top div.bas-drop .close{position:absolute;top:7px;right:10px;}
+.basket-top div.bas-drop h2{color:#525252;font-size:26px;font-weight:300;padding:0 0 15px 0;font-family: 'Open Sans Condensed', sans-serif}
+.basket-top div.bas-drop table{border-collapse:collapse;width:100%;border-top:1px solid #cad5da;font-family: 'Open Sans Condensed', sans-serif}
+.basket-top div.bas-drop table td{border-bottom:1px solid #cad5da;padding:0 0 0 10px}
+.basket-top div.bas-drop table td a{color:#0d52a5;font-size:15px}
+.basket-top div.bas-drop table td span{white-space:nowrap;font-size:18px;color:#3dabe0}
+.basket-top div.bas-drop table td .price{color:#3dabe0;font-size:18px;font-weight:600;white-space:nowrap}
+.basket-top div.bas-drop table td .price span{color:#3dabe0;font-size:26px;font-weight:600}
+
+.bas-drop .order-b{text-align:right;padding:10px 0 0 0}
+.bas-drop .order-b a{height:28px;text-align:center;color:#fff;font-family: 'Open Sans Condensed', sans-serif;border:0;background:#2ab5e8;width:150px;font-size:16px;line-height:28px;display:block;text-decoration:none;float:right}
+
 
 .content{}
 .carcass{border-collapse:collapse;width:100%}
@@ -212,14 +226,11 @@ a{color:#39a0d2}
 .txt-box table th{color:#0d52a5;font-family: 'Open Sans Condensed', sans-serif;font-weight:300}
 .txt-box table td{border-top:1px solid #dce0e1;padding:5px 0;text-align:center}
 
-
-.contacts-box{}
 .contacts-box table{border-collapse:collapse;width:100%}
 .contacts-box table td{width:50%;vertical-align:top;padding-bottom:15px}
 .contacts-box table p{color:#565656;font-size:15px;line-height:20px;padding-bottom:15px}
 .contacts-box table p span{color:#0d52a5;}
 
-.faq-box{}
 .faq-box h3{font-size:18px;color:#0d52a5;font-family: 'Open Sans Condensed', sans-serif;padding-bottom:2px;font-weight:300}
 .faq-box p{color:#565656;font-size:15px;line-height:20px;padding-bottom:15px}
 .faq-box .name{color:#0d52a5;font-size:15px;line-height:20px;padding-bottom:15px;text-align:right;font-style:italic}
@@ -391,3 +402,16 @@ a{color:#39a0d2}
 *+html .clearfix{  min-height: 1%;}
 .clearfix { zoom: 1 }
 .clearfix:after {  content: "";   clear: both;  display: block;  width: 0; height: 0;  overflow: hidden;  font-size: 0;}
+
+.add-drop{position:absolute;width:360px;border:1px solid #41acdf;padding:20px;background:#fff;left:50%;margin-left:-180px;z-index:999;top:260px;}
+.add-drop .close{position:absolute;top:7px;right:10px;}
+.add-drop h2{color:#525252;font-size:26px;font-weight:300;padding:0 0 15px 0;font-family: 'Open Sans Condensed', sans-serif}
+.add-drop table{border-collapse:collapse;width:100%;border-top:1px solid #cad5da;font-family: 'Open Sans Condensed', sans-serif}
+.add-drop table td{border-bottom:1px solid #cad5da;padding:0 0 0 10px}
+.add-drop table td a{color:#0d52a5;font-size:15px}
+.add-drop table td .price{color:#3dabe0;font-size:18px;font-weight:600;white-space:nowrap}
+.add-drop table td .price span{color:#3dabe0;font-size:26px;font-weight:600}
+
+.add-drop .btn{text-align:center;padding:20px 0 0 0}
+.add-drop .btn a{height:28px;text-align:center;color:#fff;font-family: 'Open Sans Condensed', sans-serif;border:0;background:#2ab5e8;font-size:16px;line-height:28px;display:block;text-decoration:none;float:left;padding:0 25px}
+.add-drop .btn a.back{background:#fff url(../images/back.png) 10px 10px no-repeat;color:#41acdf;text-decoration:underline;margin-left:20px}

@@ -199,6 +199,12 @@ a{color:#39a0d2}
 .contacts-box table p{color:#565656;font-size:15px;line-height:20px;padding-bottom:15px}
 .contacts-box table p span{color:#0d52a5;}
 
+.faq-box{}
+.faq-box h3{font-size:18px;color:#0d52a5;font-family: 'Open Sans Condensed', sans-serif;padding-bottom:2px;font-weight:300}
+.faq-box p{color:#565656;font-size:15px;line-height:20px;padding-bottom:15px}
+.faq-link{padding-bottom:20px}
+.faq-link a{background:url(../images/faq.png) no-repeat;display:block;width:123px;height:33px;line-height:30px;padding:0 0 0 50px;color:#fff;font-family: 'Open Sans Condensed', sans-serif;text-decoration:none;font-size:20px}
+.faq-box .sep{background:#ebebeb;height:1px;font-size:1px;clear:both;margin:0 0 20px 0}
 
 .brd{-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;-moz-box-shadow: 10px 10px 20px 0 #000; -webkit-box-shadow: 10px 10px 20px 0 #000; box-shadow: 10px 10px 20px 0 #000;width:200px;padding:20px;border:1px solid red;behavior: url(js/PIE.htc)}
 

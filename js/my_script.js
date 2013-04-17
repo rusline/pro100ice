@@ -48,13 +48,8 @@
     });
 		
 		
-	// basket drop
-	$(".bas a").click(function(){
-		$(".bas-drop").show('fast');
-	});
-	
+
 	$(".close").click(function(){
-		$(this).parents(".bas-drop").hide('fast');
 		$(this).parents(".add-drop").hide('fast');
 		$('.overlay').fadeOut('fast');
 	});

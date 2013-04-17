@@ -45,14 +45,14 @@ a:hover{text-decoration:none}
 
 .basket-top div.bas:hover .bas-drop{display:block}
 
-.basket-top div.bas-drop{position:absolute;top:45px;right:0px;width:360px;border:1px solid #41acdf;padding:20px;background:#fff !important;display:none}
+.basket-top div.bas-drop{position:absolute;top:45px;right:0px;width:360px;border:1px solid #41acdf;padding:10px 20px 20px 20px;background:#fff !important;display:none;z-index:100}
 .basket-top div.bas-drop h2{color:#525252;font-size:26px;font-weight:300;padding:0 0 15px 0;font-family: 'Open Sans Condensed', sans-serif}
 .basket-top div.bas-drop table{border-collapse:collapse;width:100%;border-top:1px solid #cad5da;font-family: 'Open Sans Condensed', sans-serif}
 .basket-top div.bas-drop table td{border-bottom:1px solid #cad5da;padding:0 0 0 10px}
 .basket-top div.bas-drop table td a{color:#0d52a5;font-size:15px}
 .basket-top div.bas-drop table td span{white-space:nowrap;font-size:18px;color:#3dabe0}
-.basket-top div.bas-drop table td .price{color:#3dabe0;font-size:18px;font-weight:600;white-space:nowrap}
-.basket-top div.bas-drop table td .price span{color:#3dabe0;font-size:26px;font-weight:600}
+.basket-top div.bas-drop table td .price{color:#3dabe0;font-size:18px;font-weight:600;white-space:nowrap;}
+.basket-top div.bas-drop table td .price span{color:#3dabe0;font-size:26px;font-weight:600;display:inline}
 
 .bas-drop .order-b{text-align:right;padding:10px 0 0 0}
 .bas-drop .order-b a{height:28px;text-align:center;color:#fff;font-family: 'Open Sans Condensed', sans-serif;border:0;background:#2ab5e8;width:150px;font-size:16px;line-height:28px;display:block;text-decoration:none;float:right}

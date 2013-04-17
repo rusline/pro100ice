@@ -23,6 +23,12 @@
 			return false;
 		});
 		
+		$('table.tabs').delegate('td:not(.current)', 'click', function() {
+		$(this).addClass('current').siblings().removeClass('current')
+			.parents('div.goods-box').find('div.gbox').hide().eq($(this).index()).fadeIn(150);
+			return false;
+		});
+		
 		// Check
 		$(".checkboxclass").click(function(){
         if($(this).is(":checked")){
@@ -51,6 +57,15 @@
 		$(this).parents(".bas-drop").hide('fast');
 		$(this).parents(".add-drop").hide('fast');
 		$('.overlay').fadeOut('fast');
+	});
+	
+	// trackbar
+	$('.trackbar').trackbar();
+	
+	// rating
+	$('.rating').rating({
+		fx: 'half',
+    image: 'images/stars.png'
 	});
 	
 

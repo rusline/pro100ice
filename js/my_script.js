@@ -29,6 +29,17 @@
 			return false;
 		});
 		
+		//faq 
+		$(".faq-link").click(function(){
+			$(".faq-form").show('fast');
+			$(this).hide('fast');
+		});
+		
+		// delete
+		$('.del').click(function(){
+				$(this).parents(".basket-list tr").animate({ opacity: 'hide' }, "slow");
+		});
+		
 		// Check
 		$(".checkboxclass").click(function(){
         if($(this).is(":checked")){

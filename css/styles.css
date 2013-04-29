@@ -462,6 +462,7 @@ a:hover{text-decoration:none}
 .sort-menu ul li:first-child{margin:0}
 .sort-menu ul li a{color:#0d52a5;font-size:14px;padding-right:13px;font-family:'Arial Narrow', Arial, Helvetica, sans-serif;font-stretch: condensed}
 .sort-menu ul li.act a{text-decoration:none;background:url(../images/bullet06.png) 100% 6px no-repeat}
+.sort-menu ul li.top a{text-decoration:none;background:url(../images/bullet07.png) 100% 6px no-repeat}
 .sort-menu ul li.gr a{text-decoration:none;background:none;text-decoration:underline}
 .sort-menu ul li.gr.act a{background:url(../images/close2.png) 100% 5px no-repeat;text-decoration:none}
 

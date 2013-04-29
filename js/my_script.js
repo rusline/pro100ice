@@ -14,6 +14,9 @@
             }
         });
     });
+		
+		// textarea
+		$('textarea').elastic();
 
 	
 		// Tabs

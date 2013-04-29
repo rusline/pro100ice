@@ -285,11 +285,11 @@ a:hover{text-decoration:none}
 
 .faq-form .check{padding-bottom:15px;color:#565656;font-size:14px;width:550px}
 .faq-form .check .checkboxclass{position: absolute;overflow: hidden;left: -9999px;}
-.faq-form .check .checkboxlabelclass{background: url(../images/check.png) 0 -73px no-repeat;padding-left:20px;padding-top: 3px; margin:0 5px 10px 0;display: block;}
+.faq-form .check .checkboxlabelclass{background: url(../images/check.png) 0 -73px no-repeat;padding-left:20px;padding-top: 3px; margin:0 5px 10px 0;display: block;cursor:pointer}
 .faq-form .check .labelselected{background:url(../images/check.png) 0 0 no-repeat}
 
 .faq-form .check .radioclass{position: absolute;overflow: hidden;left: -9999px;}
-.faq-form .check .radiolabelclass{background:url(../images/check.png) 0 -280px no-repeat;padding-left:20px;padding-top: 1px;margin:5px 0 10px 0;display: block;}
+.faq-form .check .radiolabelclass{background:url(../images/check.png) 0 -280px no-repeat;padding-left:20px;padding-top: 1px;margin:5px 0 10px 0;display: block;cursor:pointer}
 .faq-form .check .radioselected{background:url(../images/check.png) 0 -165px no-repeat;}
 
 .selection-form{width:660px;margin:0 auto}

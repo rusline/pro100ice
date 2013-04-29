@@ -532,8 +532,10 @@ a:hover{text-decoration:none}
 .tex-box-left div b{color:#0d52a5;float:right}
 
 .tex-box-right{float:left;width:330px}
+.tex-box-right div{font-size:14px;line-height:18px;padding-bottom:15px}
+.tex-box-right div span{display:block;color:#0d52a5;font-size:18px;font-family: 'Open Sans Condensed', sans-serif;}
 .tex-box-right ul{margin:0;padding:0;list-style-type:none}
-.tex-box-right ul li{padding-bottom:15px}
+.tex-box-right ul li{}
 .tex-box-right ul li div{font-size:14px;line-height:18px}
 .tex-box-right ul li div span{display:block;color:#0d52a5;font-size:18px;font-family: 'Open Sans Condensed', sans-serif;}
 

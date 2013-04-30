@@ -517,8 +517,8 @@ a:hover{text-decoration:none}
 .goods-more .model-pic{float:right;width:111px;height:88px;position:relative;margin:10px 10px 0 0}
 .goods-more .model-pic span{position:absolute;color:#ffffff;font-size:14px;right:10px;top:10px}
 
-.goods-more ul{margin:0;padding:10px 0 0 20px;list-style-type:none;clear:both}
-.goods-more ul li{float:left;margin:0 5px 2px 0}
+.goods-more .goods-more-right ul{margin:0;padding:10px 0 0 20px;list-style-type:none;clear:both}
+.goods-more .goods-more-right ul li{float:left;margin:0 5px 2px 0}
 
 .goods-more .soc{padding:15px 0 0 20px;clear:both}
 

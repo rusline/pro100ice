@@ -353,7 +353,13 @@ a:hover{text-decoration:none}
 .basket-list table td img{vertical-align:top;float:left}
 .basket-list table td:first-child a{text-decoration:none}
 .basket-list table td a{color:#0d52a5;font-size:18px}
-.basket-list input[type=text]{background:#f5f5f5 url(../images/in) top repeat-x;border-top:1px solid #dadada;border-left:1px solid #ebebeb;border-right:1px solid #eeeeee;height:40px;line-height:40px;padding:0 10px;font-size:20px;font-family: 'Open Sans Condensed', sans-serif;color:#41acdf;width:40px;vertical-align:middle;text-align:center}
+
+.order-form-complect-summ{}
+.order-form-complect-count{width:115px;position:relative;margin:0 auto;text-align:center;padding:0 10px}
+.order-form-complect-count-minis{position:absolute;left:5px;top:5px;display:block;width:30px;height:30px;background:url(../images/minus.png) no-repeat;cursor:pointer}
+.order-form-complect-count-val input[type=text]{background:#f5f5f5 url(../images/in) top repeat-x;border-top:1px solid #dadada;border-left:1px solid #ebebeb;border-right:1px solid #eeeeee;height:40px;line-height:40px;padding:0 10px;font-size:20px;font-family: 'Open Sans Condensed', sans-serif;color:#41acdf;width:30px;vertical-align:middle;text-align:center}
+.order-form-complect-count-plus{position:absolute;right:11px;top:5px;display:block;width:30px;height:30px;background:url(../images/plus.png) no-repeat;cursor:pointer}
+
 
 .basket-list table tr.total td{border-top:1px solid #41acdf;color:#3dabe0;font-size:18px;font-weight:600}
 .basket-list table tr.total td span{color:#3dabe0;font-size:26px;font-weight:600}
@@ -598,8 +604,8 @@ div.vote-success{clear: both;color: #ccc;font-size: 14px;margin: 10px 0 0 10px;d
 .clearfix:after {  content: "";   clear: both;  display: block;  width: 0; height: 0;  overflow: hidden;  font-size: 0;}
 
 
-.overlay{background:transparent;position:absolute;top:0px;bottom:0px;left:0px;right:0px;z-index:998;}
-.add-drop{position:absolute;width:360px;border:1px solid #41acdf;padding:20px;background:#fff;left:50%;margin-left:-180px;z-index:999;top:260px;}
+.overlay{background:#fff;position:absolute;top:0px;bottom:0px;left:0px;right:0px;z-index:998;opacity:0.8}
+.add-drop{position:absolute;width:400px;border:1px solid #41acdf;padding:20px;background:#fff;left:50%;margin-left:-180px;z-index:999;top:260px;}
 .add-drop .close{position:absolute;top:7px;right:10px;}
 .add-drop h2{color:#525252;font-size:26px;font-weight:300;padding:0 0 15px 0;font-family: 'Open Sans Condensed', sans-serif}
 .add-drop table{border-collapse:collapse;width:100%;border-top:1px solid #cad5da;font-family: 'Open Sans Condensed', sans-serif}

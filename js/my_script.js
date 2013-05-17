@@ -66,11 +66,18 @@
 
     });
 
-
+	// Select
+	var params = {
+    changedEl: ".lineForm select",
+		visRows: 5,
+		scrollArrows: true
+    }
+    cuSel(params);
 
 	// trackbar
 	$('.trackbar').trackbar();
-
+	
+	
 	// rating
 	$('.rating').rating({
 		fx: 'half',
@@ -78,13 +85,9 @@
 	});
 
 	// textarea
-		$('textarea').elastic();
-
-	// Select
-	var params = {
-    changedEl: ".lineForm select"
-    }
-    cuSel(params);
+	$('textarea').elastic();
+		
+	
 
 
 
